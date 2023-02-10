@@ -31,18 +31,19 @@ In this notebook, we have loaded the X and Y data which was previously gathered 
 ![LSTM](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/LSTM_model_loss_60_40_5_gen.png)
 ![GRU](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/GRU_model_loss_60_40_5_gen.png)
 
-## Evaluating_Our_Models Notebook.
+# Evaluating_Our_Models Notebook.
 In this notebook, we are loading and evaluating our previously trained models on the data_General_testing set. During the training process, we trained our models on 80% of the 500 generations, which is 400 generations, and now we are using the remaining 100 generations to assess our models based on DMOOPS metrics.
 
 To visualize the Inverted Generational Distance (IGD) with respect to the number of generations, we first obtained the real Pareto Front (referenced_PF) from our Problem Class. This was done in the 'build_datasets-v1' notebook in order to ensure that the tau values were the same for all models. Next, we obtained the models' outputs (POS) and used the _evaluate function to calculate the POFs from the POSs. Then, we calculated the IGD value for each generation and plotted the results for comparison.
 
+## Our Results Using IGD With Respect Of The Number Of Generations.
 ![RNN](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/dnsga2_vs_model/Convergence_DNSGA2_in_DF10_using_RNN.png)
 ![LSTM](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/dnsga2_vs_model/Convergence_DNSGA2_in_DF10_using_LSTM.png)
 ![GRU](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/dnsga2_vs_model/Convergence_DNSGA2_in_DF10_using_GRU.png)
 
 
 
-# Conclusion
+# Conclusion (I plan to revise this section later since I have resolved the issues and the outcomes are quite encouraging now!)
 In conclusion, the comparison of our models with DNSGA2 in DF10 benchmark highlights the necessity for further refinement or the consideration of alternative Deep Learning models. The results suggest that there is potential for improvement and the challenging task of enhancing our models adds to the motivation to continue striving for better outcomes. This iteration is just the starting point, and the implementation of other techniques that may result in improved performance has yet to be pursued. Nevertheless, the encouraging results merit further examination and investigation.
 
 Note that: the results from other benchmarks will be submitted later on.
