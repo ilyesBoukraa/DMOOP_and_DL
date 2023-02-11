@@ -26,6 +26,8 @@ In our analysis, we gather data from five generations in each sample, assuming t
 ## Build_Model_Train_X_Y_v1 Notebook
 In this notebook, we have loaded the X and Y data which was previously gathered from the "Build_X_Y_For_Training_Later_v1" notebook, then we split the data into a training and testing sets with 60/40 percent split. Our goal is to train the data using three different techniques: Recurrent Neural Network (RNN), Long-Short-Term Memory (LSTM), and Gated Recurrent Unit (GRU). The hyperparameters have been selected through our own experimentation, though we have not yet utilized grid search to test all possible combinations. Our focus will be on observing the losses and their respective curves to check for overfitting, allowing us to make necessary adjustments to the models.
 
+# Our pretrained models: https://drive.google.com/drive/folders/1no-DXnMjpoZwF5QibW-v4oZRkXpsaEGk?usp=share_link
+
 ### Model Performance through Examination of the Respective Loss Curves(Performance and Overfitting).
 ![RNN_model_loss_70_30](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/RNN_model_loss_60_40_5_gen.png)
 ![LSTM](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/LSTM_model_loss_60_40_5_gen.png)
