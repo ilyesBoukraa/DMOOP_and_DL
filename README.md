@@ -29,7 +29,8 @@ In this notebook, we have loaded the X and Y data which was previously gathered 
 # Our pretrained models: https://drive.google.com/drive/folders/1no-DXnMjpoZwF5QibW-v4oZRkXpsaEGk?usp=share_link
 
 ### Model Performance through Examination of the Respective Loss Curves(Performance and Overfitting).
-![RNN_model_loss_70_30](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/RNN_model_loss_60_40_5_gen.png)
+
+![RNN_model_loss_70_30](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/RNN_model_loss_DF10.png)
 ![LSTM](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/LSTM_model_loss_60_40_5_gen.png)
 ![GRU](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/GRU_model_loss_60_40_5_gen.png)
 
