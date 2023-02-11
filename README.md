@@ -37,10 +37,38 @@ In this notebook, we are loading and evaluating our previously trained models on
 To visualize the Inverted Generational Distance (IGD) with respect to the number of generations, we first obtained the real Pareto Front (referenced_PF) from our Problem Class. This was done in the 'build_datasets-v1' notebook in order to ensure that the tau values were the same for all models. Next, we obtained the models' outputs (POS) and used the _evaluate function to calculate the POFs from the POSs. Then, we calculated the IGD value for each generation and plotted the results for comparison.
 
 ## Our Results Using IGD With Respect Of The Number Of Generations.
-![RNN](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/dnsga2_vs_model/Convergence_DNSGA2_in_DF10_using_RNN.png)
-![LSTM](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/dnsga2_vs_model/Convergence_DNSGA2_in_DF10_using_LSTM.png)
-![GRU](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/dnsga2_vs_model/Convergence_DNSGA2_in_DF10_using_GRU.png)
+![DF1](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/dnsga2_vs_model/RNN/Convergence_DNSGA2_vs_RNN_in_DF1.png)
 
+![DF2](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/dnsga2_vs_model/RNN/Convergence_DNSGA2_vs_RNN_in_DF2.png)
+
+![DF3](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/dnsga2_vs_model/RNN/Convergence_DNSGA2_vs_RNN_in_DF3.png)
+
+![DF4](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/dnsga2_vs_model/RNN/Convergence_DNSGA2_vs_RNN_in_DF4.png)
+
+![DF5](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/dnsga2_vs_model/RNN/Convergence_DNSGA2_vs_RNN_in_DF5.png)
+
+![DF6](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/dnsga2_vs_model/RNN/Convergence_DNSGA2_vs_RNN_in_DF6.png)
+
+![DF7](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/dnsga2_vs_model/RNN/Convergence_DNSGA2_vs_RNN_in_DF7.png)
+
+![DF8](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/dnsga2_vs_model/RNN/Convergence_DNSGA2_vs_RNN_in_DF8.png)
+
+![DF9](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/dnsga2_vs_model/RNN/Convergence_DNSGA2_vs_RNN_in_DF9.png)
+
+![DF10](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/dnsga2_vs_model/RNN/Convergence_DNSGA2_vs_RNN_in_DF10.png)
+
+![DF11](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/dnsga2_vs_model/RNN/Convergence_DNSGA2_vs_RNN_in_DF11.png)
+
+![DF12](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/dnsga2_vs_model/RNN/Convergence_DNSGA2_vs_RNN_in_DF12.png)
+
+![DF13](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/dnsga2_vs_model/RNN/Convergence_DNSGA2_vs_RNN_in_DF13.png)
+
+![DF14](https://github.com/ilyesBoukraa/DMOOP_and_DL/blob/main/performance/dnsga2_vs_model/RNN/Convergence_DNSGA2_vs_RNN_in_DF14.png)
+
+
+
+# my_imgd Notebook.
+we calculated the MIGD values of our Model and the MIGDs of DNSGA2. 
 
 
 # Conclusion (I plan to revise this section later since I have resolved the issues and the outcomes are quite encouraging now!)
